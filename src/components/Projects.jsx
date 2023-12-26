@@ -4,8 +4,8 @@ const Projects = () => {
     return (
         <section id="projects">
             <h2>Projetos</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A consequatur quas, rerum, deleniti molestiae laborum laudantium voluptas ex non quo amet debitis. Consequuntur, cupiditate. Et ab temporibus corrupti sed unde.</p>
-            <a href="#" className="btn">Ver projetos</a>
+            <p>Estou entusiasmado em continuar contribuindo para projetos inovadores, aplicando meu conhecimento técnico e habilidades analíticas. Confira meus projetos pessoais no link a seguir</p>
+            <a href="https://github.com/LucasHavranek" className="btn" target="_blank">Ver projetos</a>
         </section>
     )
 }

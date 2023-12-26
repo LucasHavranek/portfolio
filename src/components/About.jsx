@@ -4,8 +4,8 @@ const About = () => {
     return (
         <section className="about">
             <h2>Sobre</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur asperiores dolore quod fugiat placeat facere, ex quis sequi debitis, aspernatur saepe at et? Labore animi quibusdam consequatur porro nostrum accusantium.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic obcaecati eveniet magni vero assumenda, aspernatur dignissimos veniam dolor, natus, iusto voluptate. Eius necessitatibus explicabo atque possimus corporis, pariatur fugit amet?</p>
+            <p>É com grande satisfação que compartilho um pouco da minha jornada. São 7 anos de experiência no vasto universo da tecnologia, ao longo desses anos mergulhei de cabeça na emocionante área de desenvolvimento de software, acumulo 2 anos neste nicho da tecnologia onde me encontrei como profissional apaixonado por tecnologia.</p>
+            <p>Graduado em Engenharia da Computação pela Universidade Metodista de São Paulo, busquei uma formação sólida que serviu como alicerce para minha jornada profissional. Com essa base, embarquei em uma carreira repleta de aprendizados e conquistas.</p>
         </section>
     )
 }

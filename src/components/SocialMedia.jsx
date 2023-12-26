@@ -3,9 +3,9 @@ import '../styles/components/socialmedia.sass'
 import {FaLinkedinIn, FaGithub, FaInstagram} from 'react-icons/fa'
 
 const socialMedia = [
-    {name: 'linkedin', icon: <FaLinkedinIn/>},
-    {name: 'github', icon: <FaGithub/>},
-    {name: 'instagram', icon: <FaInstagram/>},
+    {name: 'linkedin', url: 'https://www.linkedin.com/in/lucas-havranek/', icon: <FaLinkedinIn/>},
+    {name: 'github', url: 'https://github.com/LucasHavranek', icon: <FaGithub/>},
+    {name: 'instagram', url: 'https://www.instagram.com/lucashavranek/', icon: <FaInstagram/>},
 
 ]
 
@@ -14,7 +14,7 @@ const SocialMedia = () => {
     return (
         <section id="social-media">
             {socialMedia.map((social) => (
-                <a href="#" className="social-btn" id={social.name} key={social.name}>
+                <a href={social.url} className="social-btn" id={social.name} key={social.name} target="_blank">
                     {social.icon}
                 </a>
             ))}

@@ -8,22 +8,22 @@
     .technologies-grid
         display: flex
         flex-wrap: wrap
-        gap: 1.5rem
+        gap: 1rem
 
         .technology-card
             @include mixins.center
             gap: 1rem
             padding: 1rem
             border: 1px solid #333
-            width: 45%
+            width: 30%
             border-radius: variables.$card-border-radius
 
             h3
                 color: variables.$text-color
-                margin-bottom: 1rem
+                font-weight: 600
 
             svg
-                font-size: 6rem
+                font-size: 3rem
 
         #html
             svg
@@ -32,6 +32,13 @@
         #css
             svg
                 color: #1572b6
+
+        #python
+            svg
+                .cls-1
+                    fill: yellow
+                .cls-2
+                    fill: blue
 
         #js
             svg
@@ -48,3 +55,11 @@
         #react
             svg
                 color: #61dafb
+
+        #tailwind
+            svg
+                color: #3bbcfc
+
+        #next
+            svg
+                color: white
